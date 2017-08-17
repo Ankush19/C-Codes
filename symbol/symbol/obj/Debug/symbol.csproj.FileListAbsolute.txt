@@ -1,0 +1,6 @@
+c:\users\dudani_a\documents\visual studio 2015\Projects\symbol\symbol\bin\Debug\symbol.exe.config
+c:\users\dudani_a\documents\visual studio 2015\Projects\symbol\symbol\bin\Debug\symbol.exe
+c:\users\dudani_a\documents\visual studio 2015\Projects\symbol\symbol\bin\Debug\symbol.pdb
+c:\users\dudani_a\documents\visual studio 2015\Projects\symbol\symbol\obj\Debug\symbol.csprojResolveAssemblyReference.cache
+c:\users\dudani_a\documents\visual studio 2015\Projects\symbol\symbol\obj\Debug\symbol.exe
+c:\users\dudani_a\documents\visual studio 2015\Projects\symbol\symbol\obj\Debug\symbol.pdb

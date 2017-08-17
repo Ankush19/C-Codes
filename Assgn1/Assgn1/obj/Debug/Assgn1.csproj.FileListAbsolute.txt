@@ -1,0 +1,6 @@
+c:\users\dudani_a\documents\visual studio 2015\Projects\Assgn1\Assgn1\bin\Debug\Assgn1.exe.config
+C:\Users\dudani_a\Documents\Visual Studio 2015\Projects\Assgn1\Assgn1\bin\Debug\Assgn1.exe
+C:\Users\dudani_a\Documents\Visual Studio 2015\Projects\Assgn1\Assgn1\bin\Debug\Assgn1.pdb
+C:\Users\dudani_a\Documents\Visual Studio 2015\Projects\Assgn1\Assgn1\obj\Debug\Assgn1.csprojResolveAssemblyReference.cache
+C:\Users\dudani_a\Documents\Visual Studio 2015\Projects\Assgn1\Assgn1\obj\Debug\Assgn1.exe
+C:\Users\dudani_a\Documents\Visual Studio 2015\Projects\Assgn1\Assgn1\obj\Debug\Assgn1.pdb

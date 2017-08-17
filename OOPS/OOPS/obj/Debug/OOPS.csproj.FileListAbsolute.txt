@@ -1,0 +1,6 @@
+c:\users\dudani_a\documents\visual studio 2015\Projects\OOPS\OOPS\bin\Debug\OOPS.exe.config
+c:\users\dudani_a\documents\visual studio 2015\Projects\OOPS\OOPS\bin\Debug\OOPS.exe
+c:\users\dudani_a\documents\visual studio 2015\Projects\OOPS\OOPS\bin\Debug\OOPS.pdb
+c:\users\dudani_a\documents\visual studio 2015\Projects\OOPS\OOPS\obj\Debug\OOPS.csprojResolveAssemblyReference.cache
+c:\users\dudani_a\documents\visual studio 2015\Projects\OOPS\OOPS\obj\Debug\OOPS.exe
+c:\users\dudani_a\documents\visual studio 2015\Projects\OOPS\OOPS\obj\Debug\OOPS.pdb

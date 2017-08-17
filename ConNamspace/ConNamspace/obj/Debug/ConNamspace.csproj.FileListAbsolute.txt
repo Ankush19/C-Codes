@@ -1,0 +1,5 @@
+c:\users\dudani_a\documents\visual studio 2015\Projects\ConNamspace\ConNamspace\bin\Debug\ConNamspace.exe.config
+c:\users\dudani_a\documents\visual studio 2015\Projects\ConNamspace\ConNamspace\bin\Debug\ConNamspace.exe
+c:\users\dudani_a\documents\visual studio 2015\Projects\ConNamspace\ConNamspace\bin\Debug\ConNamspace.pdb
+c:\users\dudani_a\documents\visual studio 2015\Projects\ConNamspace\ConNamspace\obj\Debug\ConNamspace.exe
+c:\users\dudani_a\documents\visual studio 2015\Projects\ConNamspace\ConNamspace\obj\Debug\ConNamspace.pdb
