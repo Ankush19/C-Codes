@@ -1,0 +1,38 @@
+﻿@using WebApplication.Models
+@model MyInfo
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    <b>Its My Details</b><br />
+        My Name:@Model.Name @Model.MyId <br />
+        @if (Model.Age > 19)
+        {
+            <span style="background-color:cornflowerblue">
+                My Age: @Model.Age;
+
+            </span>
+        }
+
+        else
+        {
+            <span style="background-color:red">
+                My Age: @Model.Age;
+
+            </span>
+
+        }
+    </div>
+</body>
+</html>
