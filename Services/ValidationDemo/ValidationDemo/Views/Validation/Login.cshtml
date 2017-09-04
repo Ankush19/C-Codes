@@ -1,0 +1,24 @@
+﻿@model ValidationDemo.Models.Login
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm("Register", "Validation", FormMethod.Post))
+{
+    <ol>
+        <li>
+            @Html.LabelFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName)
+            @Html.ValidationMessageFor(m => m.UserName)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.Password)
+            @Html.TextBoxFor(m => m.Password)
+            @Html.ValidationMessageFor(m => m.Password)
+        </li>
+    </ol>
+
+    <input type="submit" name="Btn_Login" value="Login" />
+
+}
