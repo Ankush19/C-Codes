@@ -36,7 +36,7 @@ namespace ValidationDemo.Controllers
                     Console.WriteLine("Entry added");
                 }
 
-            return View("Login",m);
+            return View("Login");
           
         }
 
@@ -54,9 +54,9 @@ namespace ValidationDemo.Controllers
             }
             if (flag)
             {
-                return View();
+                return View("LoginSuccessful",l);
             }
-            return View("Login");
+            return View("Login",l);
         }
     }
 }
