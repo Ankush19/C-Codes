@@ -1,0 +1,66 @@
+﻿@model AjaxApplication.Models.UserBinder
+
+@{
+    ViewBag.Title = "Insert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Insert</h2>
+
+@using (Html.BeginForm("register", "User", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(u => u.User.MyID)
+                @Html.TextBoxFor(u => u.User.MyID)
+            </td>
+            <td>
+                @Html.LabelFor(u => u.User.Name)
+                @Html.TextBoxFor(u => u.User.Name)
+            </td>
+
+        </tr>
+
+
+    </table>
+    <input type="submit" id="mysubmit" value="Submit"  />
+    <input type="button" id="search" value="Search" onclick="window.location.href='<%= Url.Action("Search", "User") %>';" />
+
+}
+
+
+
+
+<div >
+    <table id="result">
+        <tr>
+            <td>
+                @Html.LabelFor(u => u.User.MyID)
+            </td>
+            <td>
+                @Html.LabelFor(u => u.User.Name)
+            </td>
+
+        </tr>
+
+
+    </table>
+
+
+</div>
+<script src="~/scripts/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript">
+    $.get("GetAllUsers", null, BindData);
+    function BindData(data)
+    {
+        for (var i = 0; i < data.length; i++)
+        {
+            var newRow = "<tr>" + "<td>" +  data[i].MyID + "</td>" +
+                        "<td>" + data[i].Name + "</td>" + "</tr>";
+            $('#result').append(newRow);
+        }
+
+    }
+</script>

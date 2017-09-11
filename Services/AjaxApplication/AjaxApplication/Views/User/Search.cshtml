@@ -1,0 +1,37 @@
+﻿@model AjaxApplication.Models.UserBinder
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Search</h2>
+@using (Html.BeginForm("Search", "User", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(u => u.User.MyID)
+                @Html.TextBoxFor(u => u.User.MyID)
+            </td>
+        </tr>
+
+
+    </table>
+    <input type="button" id="search" value="Search" />
+}
+
+
+<script type="text/javascript">
+    $.get("Search", null, BindData);
+    function BindData(data)
+    {
+        for (var i = 0; i < data.length; i++)
+        {
+            var newRow = "<tr>" + "<td>" +  data[i].MyID + "</td>" +
+                        "<td>" + data[i].Name + "</td>" + "</tr>";
+            $('#result').append(newRow);
+        }
+
+    }
+</script>
